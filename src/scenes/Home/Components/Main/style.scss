@@ -1,0 +1,44 @@
+@import '../../../../variables.scss';
+
+
+.main-page {
+    margin: 50px 20px;
+    .main-city-details{
+        display: flex;
+        justify-content: space-between;
+        div {
+            display: flex;
+            justify-content: flex-start;
+
+            .city-name{
+                display: flex;
+                flex-direction: column;
+                font-weight: 600;
+                margin-left: 10px;
+                h4{
+                    align-self: center;
+                }
+            }
+            img {
+                width: 100px;
+                height: 100px;
+            }
+            .img-fav {
+                width: 40px;
+                height: 40px;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            
+        }
+
+    }
+    .main-text{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;   
+    }
+
+}
+

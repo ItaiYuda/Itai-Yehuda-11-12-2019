@@ -1,0 +1,25 @@
+@import './variables.scss';
+
+html,
+body {
+  font-family: "Assistant", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  background-color: $color_bg;
+  color: $color_primary_text_light;
+  overflow-y: auto;
+  overflow-x: hidden;
+  min-height: 100vh;
+  width: 100vw;
+  max-width: 100vw;
+}
+
+.dark {
+  background-color: $color_dark;
+  color: $color_secondary_text_light;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+
+

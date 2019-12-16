@@ -1,0 +1,63 @@
+@import '../../variables.scss';
+.nav-bar {
+    
+    display: flex;
+    height: fit-content;
+    padding: 10px 30px;
+    background-color: $color_primary;
+    color: $color_secondary_text;
+    justify-content: space-between;
+
+    h1 {
+        font-weight: bold;
+        font-size: 1.8rem;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        
+    }
+    ul{
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+        margin-bottom: 0;
+        li {
+            font-size: 1rem;
+            margin: 0 20px;
+            display: flex;
+            
+            label {
+                font-size: 1.2rem;
+                margin: 0 5px;
+                vertical-align: middle;
+            } 
+            .react-toggle {
+                display: flex;
+            }
+        }
+    }
+    a,
+    a:visited {
+    color: $color_secondary_text;
+    }
+    a:hover {
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+        
+
+    }
+    .nav-bar-buttons {
+        font-weight: 600;
+        align-self: center;
+        li{
+            font-size: 1.2rem;
+        }
+        li:last-child {
+            margin-right: 30px;
+        }
+    }
+
+}

@@ -1,0 +1,32 @@
+@import '../../variables.scss';
+
+.card-list-deck{
+    list-style: none;
+    display: flex;
+    padding: 0 20px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    li {
+        border: 2px solid $color_primary_light;
+        padding: 10px 40px;
+        color: $color_primary_text;
+        border-radius: 10px;
+        box-shadow: 5px 10px $color_dark;
+
+        strong{
+            font-size: 1.8rem;
+        }
+        .img-weather{
+            width: 70px;
+            height: 70px;
+        }
+    }
+}
+
+.dark-card {
+    border: 2px solid $color_primary_dark !important;
+    color: $color_secondary_text !important;
+    box-shadow: 5px 10px ;
+}
