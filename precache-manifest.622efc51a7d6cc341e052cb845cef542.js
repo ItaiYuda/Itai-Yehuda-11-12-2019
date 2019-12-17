@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c5dac57af60e7dbb2a1222224dc1dc09",
+    "revision": "f0b5d181783509781a5f66be696147fa",
     "url": "/Itai-Yehuda-11-12-2019/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Itai-Yehuda-11-12-2019/static/css/2.2944374d.chunk.css"
   },
   {
-    "revision": "d1ba515b4cb8f0ebc810",
+    "revision": "e45f37d7f9713d750935",
     "url": "/Itai-Yehuda-11-12-2019/static/css/main.d0228a5c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Itai-Yehuda-11-12-2019/static/js/2.ff513bee.chunk.js.LICENSE"
   },
   {
-    "revision": "d1ba515b4cb8f0ebc810",
-    "url": "/Itai-Yehuda-11-12-2019/static/js/main.73f7328b.chunk.js"
+    "revision": "e45f37d7f9713d750935",
+    "url": "/Itai-Yehuda-11-12-2019/static/js/main.4ca63e80.chunk.js"
   },
   {
     "revision": "924683ef7dbcb7383780",

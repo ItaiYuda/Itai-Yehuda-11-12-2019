@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Itai-Yehuda-11-12-2019/precache-manifest.87099a1c10dce51c7d6105255bdd9596.js"
+  "/Itai-Yehuda-11-12-2019/precache-manifest.622efc51a7d6cc341e052cb845cef542.js"
 );
 
 self.addEventListener('message', (event) => {
