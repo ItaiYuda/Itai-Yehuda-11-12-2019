@@ -1,8 +1,6 @@
-@import '../../../../variables.scss';
-
 
 .main-page {
-    margin: 50px 20px;
+    margin: 50px 0;
     .main-city-details{
         display: flex;
         justify-content: space-between;
@@ -15,6 +13,14 @@
                 flex-direction: column;
                 font-weight: 600;
                 margin-left: 10px;
+                transition: all 1s linear;
+                div {
+                    font-size: 25px;
+                }
+                h1{
+                    font-weight: 700;
+                    transition: font-size 1s linear;
+                }
                 h4{
                     align-self: center;
                 }
@@ -42,3 +48,15 @@
 
 }
 
+@media only screen and (max-width: 650px) {
+    .city-name{
+
+        font-weight: 500;
+        margin-left: 5px;
+        h1{
+            font-weight: 600;
+            font-size: 1.6rem;
+        }
+
+    }
+}

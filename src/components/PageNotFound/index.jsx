@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import page404 from '../../utilis/images/pagenotfound.png';
-import './style.css';
+import './style.scss';
 import { Redirect } from 'react-router-dom';
 
 const PageNotFound = () => {

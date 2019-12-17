@@ -6,17 +6,28 @@
     padding: 0 20px;
     margin-top: 50px;
     flex-wrap: wrap;
-    justify-content: space-around;
-    
+    justify-content: center;
+    transition: all 1s;
     li {
         border: 2px solid $color_primary_light;
-        padding: 10px 40px;
+        padding: 10px 30px;
+        margin: 20px 10px;
         color: $color_primary_text;
         border-radius: 10px;
         box-shadow: 5px 10px $color_dark;
-
+        width: 200px;
+        height: 250px;
+        background-color: #fff;
+        transition: all 1s;
         strong{
             font-size: 1.8rem;
+            color: #9656B0;
+        }
+        h5{
+            margin-top: 10px;
+        }
+        div {
+            font-size: 20px;
         }
         .img-weather{
             width: 70px;
@@ -26,7 +37,27 @@
 }
 
 .dark-card {
-    border: 2px solid $color_primary_dark !important;
     color: $color_secondary_text !important;
-    box-shadow: 5px 10px ;
+    background-color: $color_background_dark !important; 
+    box-shadow: 5px 10px $color_dark;  
+}
+
+.fav-button:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 650px) {
+    .card-list-container{
+        
+    .card-list-deck{
+        padding: 0 5px;
+        flex-direction: column;
+        align-items: center;
+        li{
+            width: 90%;
+            margin: 10px 0;
+            min-width: 360px;
+        }
+    }
+}
 }

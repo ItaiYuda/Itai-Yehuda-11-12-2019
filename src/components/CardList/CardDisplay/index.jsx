@@ -10,7 +10,7 @@ const CardDisplay = (props) => {
     }
     return (
         <li className={isLight ? '' : 'dark-card'} onClick={isFavorites ? () => navigateToHomePage(title) : null}>
-            <strong>{title}</strong>
+            <strong className={isFavorites ? 'fav-button' : ''}>{title}</strong>
             {subTitle === '' ? null : <h5>{subTitle}</h5>}
             <hr />
             <div>

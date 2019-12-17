@@ -14,10 +14,20 @@
         color: $color_primary_text_light;
         &:focus {
             outline: none;
+
         }
     }
-  
+ 
+    .rbt-input-main .form-control .rbt-input .input-lg .form-control-lg{
+        color: inherit;    
+        outline: none;     
+        &:focus {
+            outline: none;
+        }
+    }
 }
+
+
 
 .dark-input {
     color: $color_secondary_text_light;

@@ -1,12 +1,7 @@
 import * as actionTypes from './actionTypes';
 import axios from 'axios';
 
-//	! PbEjenHDwKLdF8HX35C3vl2RqkW12RgH landy
-// ? 1PPTgllut0ucEAnOJ80r8ms5qn3fItAs Itai
-// ! rtNwhta5SWhygDRcYgBoSW22WOUgWuG7 xai
-//? 	A1H3tiOBUIk8wIbcDC4H2BGgUtOYPEda Hasani
-
-const API_KEY = `PbEjenHDwKLdF8HX35C3vl2RqkW12RgH`;
+const API_KEY = `1PPTgllut0ucEAnOJ80r8ms5qn3fItAs`;
 const CORS_ORIGIN = `https://cors-anywhere.herokuapp.com/`;
 
 export const requestSearchCities = query => {
@@ -56,10 +51,8 @@ export const requestCurrentCity = (cityName, cityKey, country, inFavorite = fals
         dispatch(requestCurrentCityPending());
 
         if (!init) {
-            const city = getState().search.data.filter(city => {
-                if (city.LocalizedName === cityName)
-                    return city;
-            });
+            const city = getState().search.data.filter(city => city.LocalizedName === cityName
+            );
             cityKey = city[0].Key;
             country = city[0].Country.LocalizedName;
         }

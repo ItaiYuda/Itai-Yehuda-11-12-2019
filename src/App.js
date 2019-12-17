@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+//import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { initState } from './store/actions/actions';
 import initCity from './config/initCity.js';
@@ -14,15 +15,14 @@ function App() {
     const dispatch = useDispatch();
     useEffect(() => {
 
-        const initData = async () => {
-
-            //dispatch(initState(initCity.cityName, initCity.cityKey, initCity.country));
+        const initData = () => {
+            dispatch(initState(initCity.cityName, initCity.cityKey, initCity.country));
         }
-        initData();
-    })
 
+        initData();
+    }, []);
     return (
-        <div className={propertiesDisplay.isLight ? '' : 'dark'}>
+        <div className={propertiesDisplay.isLight ? '' : 'dark'} >
             <Router>
                 <NavBar />
                 <Switch>

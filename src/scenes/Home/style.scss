@@ -3,11 +3,18 @@
 .container{
     margin: 20px auto;
     min-height: 600px;
-    width: 80vw;
+    min-width: 88vw;
     background-color: #fff;
 }
 
 .container-dark{
-    background-color: $color_bg_dark;
+    background-color: $color_background_dark;
     color: $color_secondary_text;
+}
+
+@media only screen and (max-width: 650px) {
+    .container{
+        padding: 0;
+    }
+
 }

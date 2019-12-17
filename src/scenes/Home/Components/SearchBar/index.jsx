@@ -9,6 +9,8 @@ const SearchBar = () => {
     const { isLoading, error, cities } = useSelector(
         state => state.search
     );
+
+    const { propertiesDisplay } = useSelector(state => state);
     const dispatch = useDispatch();
 
     const [showError, setShowError] = useState(false);
@@ -35,9 +37,8 @@ const SearchBar = () => {
     };
 
     return (
-        <div className='search-input'>
+        <div className={propertiesDisplay.isLight ? 'search-input' : 'search-input dark-input'} >
             <AsyncTypeahead
-                className='dark-input'
                 isLoading={isLoading}
                 minLength={1}
                 id="search-bar"
@@ -55,7 +56,7 @@ const SearchBar = () => {
                 show={showError}
                 handleClose={handleCloseError}
             />
-        </div>
+        </div >
     );
 };
 

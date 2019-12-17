@@ -1,12 +1,12 @@
 import React from 'react';
 import CardList from '../../components/CardList';
-import '../Home/style.scss';
+import './style.scss';
 import { useSelector } from 'react-redux';
 
 const FavoriteCities = () => {
     const { propertiesDisplay } = useSelector(state => state);
-    return <div className={propertiesDisplay.isLight ? 'container' : 'container container-dark'}>
-        <h1>Favorite Cities</h1>
+    return <div className='fav-container'>
+        <h1 className={propertiesDisplay.isLight ? '' : 'h1-dark'}>Favorite Cities</h1>
         <CardList isFavorites={true} />
     </div>;
 };
