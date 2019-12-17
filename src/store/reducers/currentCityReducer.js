@@ -22,7 +22,6 @@ const initialState = {
 export default (state = initialState, action = {}) => {
     switch (action.type) {
         case REQUEST_CURRENT_CITY_ERROR:
-            debugger
             return {
                 ...state,
                 isLoading: false,

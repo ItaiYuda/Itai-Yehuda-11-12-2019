@@ -37,6 +37,7 @@ const Main = () => {
         setModalActivated(false);
         setShowError(true);
     }
+
     return (
         <div className='main-page'>
             <div className='main-city-details'>
