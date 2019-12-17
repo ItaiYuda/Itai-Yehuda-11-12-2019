@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Itai-Yehuda-11-12-2019/static/css/main.d0228a5c.chunk.css",
+    "main.js": "/Itai-Yehuda-11-12-2019/static/js/main.73f7328b.chunk.js",
+    "main.js.map": "/Itai-Yehuda-11-12-2019/static/js/main.73f7328b.chunk.js.map",
+    "runtime-main.js": "/Itai-Yehuda-11-12-2019/static/js/runtime-main.217a7d64.js",
+    "runtime-main.js.map": "/Itai-Yehuda-11-12-2019/static/js/runtime-main.217a7d64.js.map",
+    "static/css/2.2944374d.chunk.css": "/Itai-Yehuda-11-12-2019/static/css/2.2944374d.chunk.css",
+    "static/js/2.ff513bee.chunk.js": "/Itai-Yehuda-11-12-2019/static/js/2.ff513bee.chunk.js",
+    "static/js/2.ff513bee.chunk.js.map": "/Itai-Yehuda-11-12-2019/static/js/2.ff513bee.chunk.js.map",
+    "index.html": "/Itai-Yehuda-11-12-2019/index.html",
+    "precache-manifest.87099a1c10dce51c7d6105255bdd9596.js": "/Itai-Yehuda-11-12-2019/precache-manifest.87099a1c10dce51c7d6105255bdd9596.js",
+    "service-worker.js": "/Itai-Yehuda-11-12-2019/service-worker.js",
+    "static/css/2.2944374d.chunk.css.map": "/Itai-Yehuda-11-12-2019/static/css/2.2944374d.chunk.css.map",
+    "static/css/main.d0228a5c.chunk.css.map": "/Itai-Yehuda-11-12-2019/static/css/main.d0228a5c.chunk.css.map",
+    "static/js/2.ff513bee.chunk.js.LICENSE": "/Itai-Yehuda-11-12-2019/static/js/2.ff513bee.chunk.js.LICENSE",
+    "static/media/infav.png": "/Itai-Yehuda-11-12-2019/static/media/infav.79618418.png",
+    "static/media/light.png": "/Itai-Yehuda-11-12-2019/static/media/light.d033581e.png",
+    "static/media/notinfav.png": "/Itai-Yehuda-11-12-2019/static/media/notinfav.f689d38a.png",
+    "static/media/pagenotfound.png": "/Itai-Yehuda-11-12-2019/static/media/pagenotfound.751512ad.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.217a7d64.js",
+    "static/css/2.2944374d.chunk.css",
+    "static/js/2.ff513bee.chunk.js",
+    "static/css/main.d0228a5c.chunk.css",
+    "static/js/main.73f7328b.chunk.js"
+  ]
+}
